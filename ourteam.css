@@ -1,0 +1,810 @@
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+      url('fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+      url('fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  
+    
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+
+.team-banner{
+  height: 70vh;
+  width: 100%;
+}
+.team-banner main{
+  background-image: url(images/ourteam/ourteam.jpg);
+  background-size: cover;
+  background-position: center left;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* Description of each individual in Our team */
+
+.teamcontainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(62, 161, 219) 21.2%, rgb(0, 42, 148) 180.2%);
+}
+.photo{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    
+    padding: 3% 8%;
+
+}
+.photo img{
+    border-radius: 50%;
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.photo a{
+    border-radius: 50%;
+    align-self: center;
+    height: 100%;
+    width: 40vh;
+    margin: 0;
+}
+.detailcontainer{
+   
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3%;
+    color: whitesmoke;
+    font-size: large;
+}
+.detailcontainer p{
+    margin: 0;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.teamcontents{
+    height: auto;
+    padding: 2% 5%;
+    background-color: whitesmoke;
+}
+#about {
+    font-size: larger;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#role{
+  color: white;
+  margin: 0;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-size: larger;
+}
+#name{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  text-align: left;
+  
+}
+
+@media screen and (max-width: 420px){
+  .team-banner{
+    height: 60vh;
+    flex-wrap: wrap;
+  }
+  .team-banner main a{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 3.8rem;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .photo{
+    padding: 0 10px;
+  }
+  .photo a{
+    height: 35vh;
+    width: 300px;
+  }
+  .detailcontainer{
+    padding-left: 30px;
+  }
+  .ourteam .row h1{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+  }
+  .ourteam .row{
+    text-align: center;
+  }
+  .team-banner main{
+    background-image: url(images/ourteam/ourteam.jpg);
+    background-size: cover;
+  background-position: center right;
+  height: 100%;
+  width: 100%;
+}
+  }
+
+
+
+
+
+
+/* Card Design of Our Team */
+
+.team-banner{
+  width: 100%;
+  height: 70vh;
+}
+.team-banner img {
+  max-width: 100%;
+  
+}
+
+.our-team {
+    height: auto;
+    width: 100%;
+    background-color: rgb(0, 42, 148);
+
+}
+#ourteamheading{
+    display: block;
+    font-size: xx-large;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgb(121, 117, 117);
+}
+
+.card-container {
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 300px));
+    column-gap: 40px;
+    row-gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container .card {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 5px rgb(95, 94, 94);
+    align-items: center;
+    justify-content: center;
+   
+}
+.card-container .card a img {
+    
+    height:300px;
+    width:250px;
+    object-fit: cover;
+    transition: ease 0.5s;
+    
+}
+.card-container .card #cardimage{
+    padding: 10px;
+   
+    color: black;
+    transition: ease 0.5s;
+    /
+}
+.card-container .card-content h1{
+    color: black;
+    display: inline-block;
+}
+.card-container .card-content{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+.card-container .card-content a{
+    position: relative;
+    padding-bottom: 2px;
+}
+.card-container .card-content a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    
+    background-color: rgb(255, 166, 57);
+    transition: ease 0.8s;
+}
+.card-container .card-content a::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 166, 57);
+    /* opacity: 0; */
+    transition: ease 0.8s;
+}
+
+.card:hover #cardimage, .card:hover img{
+    transform: scale(1.03);
+}
+.card:hover a::after{
+    opacity: 1;
+    width: 51%;
+}
+.card:hover a::before{
+    opacity: 1;
+    width: 50%;
+}
+
+
+
+
+
+
+.ourteam {
+    
+    background-color:   rgb(23,40,82);
+    border-bottom: 10px solid rgb(23,40,82);
+  }
+  .ourteam .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    
+    padding: 1em 4em 2em 4em;
+    text-align: center;
+    justify-content: center;
+  }
+  .ourteam .column {
+   
+    transition: ease all 0.4s;
+    
+    
+  }
+  .ourteam h1 {
+    width: 100%;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-left: 170%;
+  }
+  .ourteam .card {
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2em 0;
+    border-radius: 0.6em;
+    color: rgb(23,40,82);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    
+    
+  }
+  .ourteam .card .img-container {
+    width: 10em;
+    height: 10em;
+    background-color: #ffffff;
+    padding: 0.5em;
+    border-radius: 10%;
+    margin: 0 auto 1em auto;
+    
+  }
+  .ourteam .card img {
+    width: 100%;
+    border-radius: 10%;
+  }
+  .ourteam .card h3 {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  .ourteam .card p {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 600;
+    
+    margin: 1em 0 1.5em 0;
+    letter-spacing: 2px;
+  }
+  .ourteam .icons {
+    width: 30%;
+    min-width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .ourteam .card a {
+    text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    color: inherit;
+    font-size: 1.4em;
+    
+  }
+  .ourteam .card:hover {
+    background: linear-gradient(#262626, #262626);
+    color: #ffffff;
+    
+  }
+  .ourteam .card:hover .img-container {
+    transform: scale(1.15);
+  }
+
+
+  @media screen and (max-width: 668px){
+    .ourteam .row h1{
+      margin-left: 0%;
+    }
+    .ourteam .row{
+      text-align: center;
+      margin: 1rem 0;
+      padding: 0 0 0 25px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .ourteam {
+      padding: 0.5em 1em;
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .team-banner{
+      width: 100%;
+      height: 30vh;
+    }
+    .team-banner img {
+      max-width: 100%;
+      margin-top: 10%;
+    }
+    .ourteam {
+      padding: 0.5em 0em;
+      
+    }
+   
+    .ourteam .column {
+      
+      width: 95%;
+      padding: 0 1em;
+      flex: none;
+    }
+    .ourteam .card {
+      padding: 2em 0;
+    
+  }
+  .ourteam .row h1{
+    margin-left: 0%;
+  }
+  .ourteam .row{
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0 0 0 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+}
+  
+  @media screen and (min-width: 992px) {
+    .ourteam {
+      padding: 1em;
+    }
+
+   
+  }
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.our-team-container {
+   
+    display: flex;
+    width: 75%;
+   
+    background-color: rgb(23,40,82);
+    margin: 10% auto;
+    padding-bottom: 3%;
+    
+}
+.our-team-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.our-team-photo {
+    display: flex;
+    width: 100%;
+    height:40vh;
+    position: relative;
+   
+}
+.our-team-photo img{
+    height: 100%;
+    width: 280px;
+    margin: 0 auto;
+    position: absolute;
+   
+    left: 15%;
+    bottom: 10%;
+    box-shadow: 0 0 15px rgb(107, 107, 107);
+}
+.our-team-left .linkedin{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    display: flex;
+   
+    font-size: 2.5rem;
+    margin-left: 37.5%;
+}
+.linkedin a{
+    margin: 0 5%;
+    color: rgb(23,40,82);
+    color: #ffffff;
+}
+.our-team-description{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.our-team-description h2,.our-team-description p, .our-team-description h5{
+    display: inline-block;
+    width: fit-content;
+    color: #ffffff;
+}
+.our-team-description p, .our-team-description h5{
+    margin-top: 2%;
+}
+.our-team-description h2{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+.our-team-description h5{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.our-team-description p{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width:420px){
+  .team-banner{
+    width: 100%;
+    height: 30vh;
+  }
+  .team-banner img {
+    max-width: 100%;
+    margin-top: 10%;
+  }
+
+    .our-team-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 10% 5%;
+    }
+    .our-team-left{
+        width: 90%;
+    }
+    .our-team-photo{
+        width: 100%;
+        height: 20vh;
+        
+    }
+    .our-team-left .our-team-photo img{
+        
+        width: 70%;  
+    }
+    .our-team-left .linkedin{
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+    .our-team-description {
+        width: 90%;
+    }
+    .our-team-description h2{
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+    .our-team-description h5{
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1.2rem;
+    }
+    .our-team-description p{
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1rem;
+    }
+    
+    .Bg-right-div img{
+      margin-top: -10%;
+     max-width: 100%;
+     
+    }
+    .Bg-container{
+      flex-direction: column;
+      height: auto;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .our-team-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 10% 5%;
+    }
+    .our-team-left{
+        width: 90%;
+    }
+    .our-team-photo{
+        width: 100%;
+    }
+    .our-team-left .our-team-photo img{
+        left: 25%;
+        width: 50%;  
+    }
+    .our-team-description{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:1200px){
+    .our-team-container{
+        width: 90%;
+    }
+    .our-team-left .our-team-photo img{
+        left: 25%;
+        width: 60%;  
+    }
+}
+
+
+.Bg-right-div img{
+  height: 600px;
+  width: 900px;
+  mix-blend-mode: lighten;
+  
+  
+}
+.Bg-right-div{
+  height: 600px;
+  width: 500px;
+  position: relative;
+ left: -33%;
+ top: 5%;
+ margin-bottom: 5%;
+}
+
+
+.Bg-container{
+  width: 100%;
+  height: auto;
+  margin: 0% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  
+}
+.Bg-container .left-div{
+  width: 50%;
+  height: auto;
+  background-color:#ffffff;
+  padding: 5rem 1rem;
+  border-radius: 2px;
+  position: absolute;
+  left: 45%;
+  
+  box-shadow: 5px 5px 10px rgb(94, 92, 92);
+  transition: ease all 0.8s;
+  z-index: 5;
+  
+}
+.Bg-container .left-div h2{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-size: 2.1rem;
+  color: rgb(23,40,82);
+
+}
+.Bg-container .left-div p{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 2.5rem 2rem;
+  color: rgb(23,40,82);
+
+}
+
+
+.Bg{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(23,40,82);
+  padding: 10px 0;
+  
+  
+}
+
+@media screen and (max-width:500px) {
+  .Bg{
+    height: auto;
+    margin-bottom: 100%;
+    width: 100%;
+    
+    margin-top: 5%;
+    box-sizing: none;
+}
+.Bg-container{
+     width: 100%;
+height: auto;
+    
+     justify-content: center;
+     box-sizing: none;
+     flex-direction: column;
+
+}
+.Bg-container .Bg-right-div{
+    
+    width: 100%;
+    margin: 5px 2px 5px 1.5px;
+    padding: 2px;
+   
+
+    
+}
+.Bg-container .left-div{
+    width: 99%;
+    overflow: hidden;
+    
+    margin: 150%  0 0 -44.6% ;
+    padding: 3rem 1rem;
+
+}
+.content{
+text-align: left;
+}
+.left-div h2{
+text-align: left;
+font-family: "Open Sans", verdana, Helvetica, sans-serif;
+font-size: 1.7rem;
+}
+.Bg-right-div img{
+  height: 300px;
+  width: 275px;
+  margin-left: 60%;
+}
+  
+}

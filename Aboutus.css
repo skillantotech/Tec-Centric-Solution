@@ -1,0 +1,943 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+      url('fonts/OpenSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+      url('fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+
+.banner{
+  width: 100%;
+  height: 70vh;
+}
+.banner img{
+  
+  max-width: 100%;
+ 
+
+}
+@keyframes opa{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+
+.about-us-container .left-about-us p{
+  font-size: 1.3rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 2rem 2rem;
+  text-align: left;
+  padding: 1.5rem 0;
+}
+
+.about-us-container .about-second{
+  width: 50%;
+  padding: 0;
+  z-index: 1;
+  transition: ease-in  0.8s;
+  
+}
+.about-us-container .about-second img{
+  width: 100%;
+  
+}
+ 
+
+ 
+.aboutus{
+  width: 100%;
+  height: fit-content;
+  
+  
+  
+}
+
+.aboutus .about-us-container{
+  width: 100%;
+  display: flex;
+  margin-top: 5% ;
+  margin-left: -1.3% ;
+  
+  
+  
+
+}
+.left-about-us{
+  width: 47vw;
+  height: 60vh;
+  margin-left: 3%;
+}
+.about-second img{
+  width: 47vw;
+  height: 60vh;
+}
+.about-us-container .left-about-us{
+  background-color: rgb(23, 40, 82);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+ 
+  
+
+.about-us-container .left-about-us h2{
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-size: 2.1rem;
+ color: #ffffff;
+  display: inline;
+  margin-left: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+
+}
+.about-us-container .left-about-us p{
+  font-size: 1.3rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 2rem 2rem;
+  text-align: left;
+  color: #ffffff;
+ 
+}
+
+/* //////////  about-two  ///////// */
+  .about-two{
+    display: flex;
+    
+    text-align: center;
+    margin:2% 0 5% 0;
+    padding: 3% 0 0 0;
+    position: relative;
+    height: 1005;
+    width: 80%;
+   
+    margin-left: 10%;
+    justify-content: space-evenly;
+    
+  }
+  .about-two .approach-about{
+    height: 60vh;
+    width: 35vw;
+    border: 1px solid rgb(23,40,82);
+    text-align: center;
+    padding: .8rem 1.8rem 0 1.8rem;
+    border-radius: 8px;
+   
+    background-color: rgb(23,40,82);
+    
+  }
+  .about-two .approach-about h2{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.1rem;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+    display: inline;
+    text-align: center;
+    color: #ffffff;
+  }
+  .about-two .approach-about p{
+    font-size: 1.3rem;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 2rem 0;
+    text-align: left;
+    padding: 1.5rem 0;
+    text-align: left;
+    color: #ffffff;
+
+  }
+ 
+  .approach-about-image img{
+    height: 60vh;
+    width: 35vw;
+    border-radius: 5px;
+   
+    
+  }
+
+  .about-two .edge-about{
+    height: 50vh;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0 1.8rem;
+    border-radius: 8px;
+   
+  }
+  .about-two .edge-about h2{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.1rem;
+    border-bottom: 2px solid #0e0d0d;
+    padding-bottom: 3px;
+    display: inline;
+    text-align: center;
+  }
+  .about-two .edge-about p{
+    font-size: 1.2rem;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 2rem 0;
+    text-align: left;
+    padding: 1.5rem 0;
+    text-align: left;
+  }
+
+  
+  .Bg-main{
+    width: 100%;
+    height: fit-content;
+    margin: 5% 0 10% 0;
+
+}
+
+.Bg-main .aim-aboutus{
+    width: 100%;
+    display: flex;
+   
+}
+
+
+
+.Bg-main .aim-aboutus .left-aim img{
+    height: 50vh;
+    width: 48vw;
+    margin-left: 7%;
+}
+
+.Bg-main .aim-aboutus .right-aim{
+    height: 50vh;
+    width: 48vw;
+    text-align: left;
+    background-color:  rgb(23, 40, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Bg-main .aim-aboutus .right-aim h2{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.1rem;
+   
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+    display: inline;
+    margin-left: 3rem;
+    color: #ffffff;
+    
+}
+
+.Bg-main .aim-aboutus .right-aim p{
+    font-size: 1.3rem;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0.5rem 3rem;
+    text-align: left;
+    padding: 1.5rem 0;
+    color: #ffffff;
+}
+
+
+
+
+
+ 
+  /* ////////// class-".Bg-Strategy" //////// */
+
+  .Bg-Strategy{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(23, 40, 82);
+    padding: 30px 0;
+    align-items: center;
+  }
+  .Bg-Strategy h1{
+    text-align: center;
+    font-size: 2.1rem;
+    
+    color:#ffffff;
+    padding: 3px;
+    margin-bottom: 3%;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+  .Bg-Strategy .main-Strategy{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-Strategy .left-main-Strategy{
+    width:80%;
+    height: auto;
+  }
+  .main-Strategy .left-main-Strategy h2{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    
+    padding-bottom: 50px;
+    display: inline;
+    color: #ffffff;
+  }
+  .main-Strategy .left-main-Strategy p{
+    font-size: 1.3rem;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .main-Strategy .right-main-Strategy{
+    width: 80%;
+  
+    
+    
+  }
+  .right-main-Strategy ul{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -8%;
+  }
+  .right-main-Strategy ul li{
+    list-style:none ;
+    text-align: center;
+  }
+  .right-main-Strategy ul li h4{
+    font-size: 1.62rem;
+    font-weight: 500;
+    color: rgb(23, 40, 82);
+    padding: 10px 0;
+  }
+  .right-main-Strategy ul li.borderGreen{
+    padding-left: 2%;
+    border-left: 0.3vw solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 50px;
+  } 
+  .right-main-Strategy ul li.borderBlue{
+    
+    padding-left: 2%;
+    border-left: 0.3vw solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 50px;
+  } 
+  li.borderGreen, li.borderBlue{
+    margin-bottom: 4vh;
+    margin-left: 5vw;
+  }
+
+  @media screen and (max-width:768px) {
+    .banner{
+      background-color: #262626;
+      width: 100%;
+      height: 20vh;
+    }
+    .banner img{
+      margin-top: 5%;
+      max-width: 100%
+    }
+    .aim-aboutus .left-aim img{
+      width: 600px;
+      height: 59vh;
+      margin-left: -50%;
+    }
+    .approach-about-image img{
+      width: 600px;
+      
+    }
+
+    .about-us-container{
+      margin-top: -25%;
+    }
+    .Bg-main .aim-aboutus{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .Bg-Strategy{
+
+      margin-top: 35%;
+    }
+
+    .Bg-Strategy .main-Strategy{
+      flex-direction: column;
+    }
+    .main-Strategy .left-main-Strategy{
+      width:90%;
+      margin: 0 5%;
+    }
+    .main-Strategy .right-main-Strategy{
+      width: 100%;
+    }
+    .right-main-Strategy ul li h4{
+      font-size: 1.7rem;
+    }
+    
+    .right-main-Strategy ul{
+      padding-top: 10%;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: -8%;
+    }
+  }
+
+
+
+/* ////////////// class -: "Bg-Connect" ///////////////// */
+
+@media screen and (max-width:768px){
+
+  .Bg-Connect .main-Connect{
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .main-Connect .text-connect .text-white{
+    color: #ffffff;
+    
+
+  }
+  .main-Connect .text-connect{
+    width: 80%;
+    padding-top: 10%;
+  }
+
+  .msg-connect .round-box{
+    width:200px;
+    height: 200px;
+    background: #ffffff;
+    color: rgb(23, 40, 82);
+    border-radius: 50%;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 15%;
+    
+  }
+
+   
+  .about-us-container{
+    justify-content: center;
+  }
+  .about-us-container .about-second{
+    display: none;
+  }
+  .about-two{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10% 5%;
+        padding-bottom: 15%;
+   
+  }
+  .approach-about, .edge-about{
+    margin: 20px 0;
+    height:auto;
+    
+
+  }
+  .Bg-main{
+    margin: 5% 0 0% 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .aim-aboutus .right-aim{
+    width:95%;
+    margin: 0 2.5%;
+    
+  }
+   
+
+   .about-us-container .left-about-us{
+    width: 95%;
+    height: 80%;
+    margin-top: 40%;
+ }
+
+ .about-two .approach-about{
+  height: 550px;
+  width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1.8rem 1.8rem;
+    border-radius: 8px;
+ }
+ .about-two .edge-about{
+  height: 550px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1.8rem 1.8rem;
+  border-radius: 8px;
+  
+}
+.about-two{
+  width: 90%;
+}
+}
+@media screen and (max-width:420px){
+  .aim-aboutus .left-aim img{
+    width: 370px;
+  }
+  .approach-about-image img{
+    width: 350px;
+  }
+  .about-us-container .left-about-us{
+    width: 95%;
+    height: 80%;
+    margin-top: 100%;
+ }
+ .banner{
+  height: 20vh;
+ }
+ .aboutus .about-us-container{
+  margin-top: -54%;
+  padding-top: 0;
+  margin-left: -9%;
+ }
+ .Bg-main .aim-aboutus{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+ }
+ .Bg-main .aim-aboutus .left-aim{
+  width: 100vw;
+ 
+ }
+ .Bg-main .aim-aboutus .left-aim img{
+  width: 90%;
+  margin-left: 5%;
+ }
+ .Bg-main .aim-aboutus .right-aim {
+  width: 90%;
+  height: 100%;
+  margin-left:5% ;
+ }
+ 
+
+ .Bg-Strategy{
+  margin-top: -25%;
+ }
+ .right-main-Strategy ul{
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin-left: -8%;
+}
+}
+
+@media screen and (max-width:600px){
+
+
+  .Bg-main{
+    margin: 5% 0 20% 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .about-us-container{
+    justify-content: center;
+   /
+  }
+  .banner{
+    flex-wrap: wrap;
+    
+  }
+  .about-p{
+    display: none;
+  }
+  .about-h2{
+    display: none;
+  }
+  .about-us-container .about-second{
+    display: none;
+  }
+  .about-us-container .left-about-us{
+     width: 95%;
+     height: 80%;
+     margin-top: 100%;
+  }
+  .about-two .approach-about{
+    height: 550px;
+      border: 1px solid black;
+      text-align: center;
+      padding: 1.8rem 1.8rem;
+      border-radius: 8px;
+   }
+   .right-main-Strategy ul{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 8% 1% 8% -4%;
+  }
+}
+
+.about-h2{
+  color: #ffffff;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 2rem;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  font-weight: 900;
+  height: fit-content;
+  width: fit-content;
+}
+
+.about-p{
+  color: #ffffff;
+  position: absolute;
+  top: 30%;  left: 5%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif;
+  height: fit-content;
+  width: fit-content;
+}
+
+.banner{
+  position: relative;
+}
+
+
+.about-card img{
+  height: 100px;
+  width: 100px;
+  
+}
+
+
+.aboutus .aboutus-cards {
+  width: 100%;
+  height: auto;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  
+  
+}
+
+.aboutus .aboutus-cards .about-card {
+  width: 23.5%;
+  height: auto;
+ 
+  padding: 20px 0;
+  margin: 3% 0 5% 0;
+  border-radius: 12px;
+  text-align: center;
+}
+.aboutus .aboutus-cards .about-card:hover{
+  box-shadow: 6px 6px 10px #35343482, -6px -6px 10px #a6a5a582 ;
+}
+
+.aboutus .aboutus-cards .about-card h3 {
+  color: rgb(23, 40, 82);
+  text-align: center;
+}
+
+.about-card p {
+  display: inline-block;
+  font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 98%;
+  text-align: center;
+  padding: 0px  20px 20px 20px;
+}
+
+
+.readmore{
+  margin-top: 10px;
+  margin-left: 45%;
+}
+.readmore a{
+  color: #ffffff;
+  background-color: rgb(23, 40, 82);
+  font-family: "Open Sans", verdana, Helvetica, sans-serif ;
+  font-size: 1.3rem;
+  font-weight: 600;
+  
+  border: 1px solid rgb(23,40,82);
+  padding: 5px 10px;
+  border-radius: 2px;
+
+}
+.readmore a:hover{
+  background-color: #ffffff;
+  color: rgb(23, 40, 82);
+}
+
+
+@media screen and (max-width:760px){
+
+    .aboutus .aboutus-cards {
+   flex-direction: column;
+   
+      }
+
+      .aboutus .aboutus-cards .about-card{
+        width: 100%;
+      }
+      .about-p{
+        display: none;
+      }
+      .about-h2{
+        display: none;
+      }
+      .aboutus div span {
+        margin-left: 35%;
+      }
+    }
+
+    .aboutus div span {
+      font-size: 2.1rem;
+      color: rgb(23, 40, 82);
+      display: inline-block;
+      padding: 10px 0px;
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 5px 0px 10px;
+      position: relative;
+      margin-left: 45%;
+    }
+
+    .about-card h3{
+      display: inline-block;
+      text-align: center;
+      font-size: 1.2rem;
+      font-family: "Open Sans", verdana, Helvetica, sans-serif;
+      width: 100%;
+      margin: 30px 0px 20px;
+      
+     }
+
+     .aboutus{
+      margin-top: 0;
+      padding-bottom: 5%;
+     }
+
+     @media screen and (max-width:420px){
+      .aboutus div span {
+        margin-left: 30%;
+      }
+      .readmore a{
+        margin-left: -30%;
+        
+      }
+      .main-Connect .text-connect .text-white{
+        width: 100%;
+        font-size: 2.3rem;
+        margin-top: 10%;
+      }
+      .aim-aboutus .right-aim{
+        height: 100%;
+      }
+      .aim-aboutus {
+        height: 100%;
+      }
+      .Bg-Connect .main-Connect {
+        margin-top: 55%;
+      }
+      .Bg-Strategy{
+        margin-top: -25%;
+      }
+
+   
+      .about-us-container{
+        justify-content: center;
+        margin-left: -9%;
+      }
+      .about-us-container .about-second{
+        display: none;
+      }
+      .about-two{
+        flex-wrap: wrap;
+        margin:10% 5% -30% 5%;
+       
+      }
+      .approach-about, .edge-about{
+        margin: 20px 0;
+        height:auto;
+        /* padding: 20px 0; */
+    
+      }
+      .aim-aboutus .right-aim{
+        width:100%;
+        
+        
+      }
+       .aim-aboutus .left-aim{
+        z-index: 0;
+        width: 100%;
+       }
+    
+       .about-us-container .left-about-us{
+        width: 95%;
+        height: 80%;
+        margin-top: 70%;
+        margin-left: 17%;
+     }
+    
+     .about-two .approach-about{
+      height: 550px;
+        border: 1px solid black;
+        text-align: center;
+        padding: 1.8rem 1.8rem;
+        border-radius: 8px;
+     }
+     .about-two .edge-about{
+      height: 550px;
+      border: 1px solid black;
+      text-align: center;
+      padding: 1.8rem 1.8rem;
+      border-radius: 8px;
+      
+    }
+    .Bg-main{
+      flex-direction: column;
+      margin-top: -15%;
+    }
+    .aim-aboutus{
+      flex-direction: column;
+      margin-top: 40%;
+    }
+    .Bg-main .aim-aboutus .left-aim img{
+      width: 90%;
+      height: 30vh;
+      margin-left: 5%;
+      
+    }
+    .Bg-main .aim-aboutus .right-aim{
+      width: 90%;
+      margin-left: 5%;
+      height: fit-content;
+    }
+    .end{
+      margin-top: 10%;
+    }
+    }

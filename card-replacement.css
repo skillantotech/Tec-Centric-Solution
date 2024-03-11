@@ -1,0 +1,230 @@
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.service-card{
+    padding: 5% 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-content: space-between;
+    grid-auto-columns: 1fr;
+    
+}
+.service-card pre{
+    color: rgb(179, 174, 174);
+   
+}
+
+.service-card .content-left{
+    width: 90%; 
+    padding-left: 5%;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.service-card .content-right{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.service-card .content-right img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+/* .service-card .content-left{
+    padding: 5%;
+}
+.service-card .content-right{
+    width: 50%;
+} */
+
+.service-card .content-left h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    padding: 15px 0px;
+    color: rgb(23,40,82);
+}
+
+.service-card .content-left p{
+font-size: 1.125rem;
+font-weight: 500;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    padding: 15px 0px;
+width: 100%;
+color: rgb(23,40,82);
+}
+
+.service-card .content-left div{
+    margin-top: 2%;
+}
+.service-card-button{
+    margin: 5%;
+}
+
+.service-card-button a{
+    font-size: 1.2rem;
+font-weight: 600;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    padding: 10px 20px;
+width: fit-content;
+color: #ffffff;
+background-color: rgb(23,40,82);
+border: 1px solid rgb(23,40,82);
+text-decoration: none;
+}
+.service-card-button a:hover{
+    color: rgb(23,40,82);
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width:768){
+    .service-card{grid-template-columns: 1fr;}
+    
+}
+@media screen and (max-width: 768px) {
+
+    .service-card{grid-template-columns: 1fr;
+    row-gap: 40px;
+width: 100%;}
+    .service-card .content-right img{
+        height:400px ;
+        width: 350px;
+        
+    
+    }
+    .service-card .content-right{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .service-card .content-left{
+        box-sizing: border-box;
+        
+    }
+
+    .service-card .content-left p{
+        font-size: 1rem;
+        font-weight: 500;
+            font-family: "Open Sans", verdana, Helvetica, sans-serif;
+            padding: 15px 0px;
+        width: 98%;
+        color:  rgb(23,40,82);
+        border-bottom: 1px solid   rgb(23,40,82);
+        }
+        .service-card pre{
+            display: none;
+        }
+}

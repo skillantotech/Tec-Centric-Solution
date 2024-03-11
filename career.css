@@ -1,0 +1,473 @@
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.career-landingPage{
+    background-color: #F1F0EE;
+}
+
+.career-container{
+    width: 100%;
+    background-color: #F1F0EE;
+}
+
+.career-container img{
+    margin-top: 5%;
+    max-width: 100%;
+}
+@keyframes dhoos{
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0.25;
+    }
+    66.7%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.join_defaults{
+        background-color: #fff;
+    }
+    
+.default-text{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 50px;
+}
+.default-text .left-default{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.default-text .left-default h2{
+    color: rgb(23,40,82);
+    display: inline-block;
+    width: 70%;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+
+line-height: 2.7rem;
+}
+.default-text .left-default p{
+    text-align: left;
+    color: rgb(19, 19, 19);
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    width: 85%;
+}
+.default-button {
+    display: flex;
+    margin-top: 2rem;
+    height: auto;
+    width: fit-content;
+}
+
+.default-button a{
+    padding: 5px 20px;
+    
+}
+.join_defaults .default-text .left-default a{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(23,40,82);
+    border: rgb(23,40,82) 2px solid;
+
+    color:#fff ;
+    
+}
+
+.left-default button{
+    height: auto;
+    width: auto;
+}
+.join_defaults .default-text .left-default a:hover{
+    color: rgb(23,40,82);
+    background-color: #fff;
+    transition: ease all 0.5s;
+    border: rgb(23,40,82) 2px solid;
+
+
+}
+.default-text .right-default{
+    display: flex;
+    width: 50%;
+    height: 100%;  
+  
+}
+.default-text .right-default img{
+    width:90%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 0;
+    object-fit: cover;
+ 
+}
+.container-default{
+    padding: 3% 0;
+}
+
+.sec-default{
+    padding: 60px 50px;
+    margin-top: 5%;
+    text-align: left;
+    background-color: rgb(23,40,82);
+}
+.container-default .container_text_default h3{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container-default .container_text_default .data-default{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+/* ///////////form//////////////// */
+
+.apply-cv{
+    height:auto;
+    padding:20px 10px;
+    background-color:  #ffffff;
+}
+
+.apply-cv h2 {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    color:  rgb(23,40,82);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+ 
+
+}
+
+.apply-cv h3 {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 1px solid #555;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(23,40,82);
+    color: #fff;
+}
+
+.apply-cv form {
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+ .apply-cv label {
+    display: block;
+    margin: 14px 0px -15px 0px;
+    color: #555;
+    line-height: 2px;
+}
+
+.apply-cv input,
+.apply-cv select {
+    width: 100%;
+    padding: 12px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.apply-cv select {
+    appearance: none;
+}
+
+.apply-cv input[type="file"] {
+    padding: 10px;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+}
+
+.apply-cv .button {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 8px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(23,40,82);
+    background-color: rgb(23,40,82);
+}
+#upload{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.2rem;
+font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+    .career-promo h5{
+        padding: 10px 90px;
+    }
+ 
+    .default-text{
+        padding: 2rem;
+        display: flex;
+    }
+    .default-text .left-default{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .default-text .left-default a{
+        display: inline-block;
+        text-align: left;
+    }
+    .default-text .left-default h2{
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 1.3rem;
+    }
+    .default-text .left-default p{
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 1.3rem;
+   
+    }
+    .right-default img{
+        height: 100%;
+    }
+ 
+    #upload{
+        font-size: 0.7rem;
+        
+    }
+}
+@media (max-width: 520px){
+  
+    .career-promo h3{
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 5px 0;
+        margin: 30px 0px 10px;
+    }
+    .career-promo h2{
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .career-promo h5{
+        font-size: 1.2rem;
+        margin: 5px 0;
+        padding: 5px 10px;
+    }
+  
+    .default-text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .default-text .left-default{
+
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 90%;
+        padding-top: 20px;
+    }
+    .default-text .left-default h2{
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        text-align: left;
+
+    }
+    .default-text .left-default p{
+        text-align: left;
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        width: 95%;
+        font-size: 1rem;
+   
+    }
+    .default-text .left-default .default-button{
+        margin-top: 15px;
+        text-align: left;
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 0.5rem;
+        padding: 4px 8px;
+        margin-left: -10px;
+    }
+    .default-text .left-default .default-button a{
+        font-family: "Open Sans", verdana, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 4px 8px;
+        text-align: left;
+    }
+    .default-text .right-default{
+        margin-top: 30px;
+        width: 80%;
+        height: 30vh;
+
+    }
+    .default-text .right-default img{
+        width: 100%;
+    }
+
+   .career-landingPage{
+    height: 20vh;
+    background-color: #F1F0EE;
+   }
+    .career-container{
+        width: 100%;
+        background-color: #F1F0EE;
+    }
+    
+    .career-container img{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+}
+
+span {
+    color: rgb(23,40,82);
+}

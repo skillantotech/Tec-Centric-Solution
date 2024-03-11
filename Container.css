@@ -1,0 +1,233 @@
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-MediumItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.Bg-img{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.container .left-div{
+    width: 50%;
+    height: auto;
+    background-color:#ffffff;
+    padding: 5rem 1rem;
+    border-radius: 2px;
+    position: relative;
+    right: -100px;
+    
+    box-shadow: 5px 5px 10px rgb(94, 92, 92), -5px -5px 10px rgb(94, 92, 92);
+    transition: ease all 0.8s;
+    z-index: 5;
+    
+}
+.left-div h2{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 2.1rem;
+    color: rgb(23,40,82);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin-left: 2rem;
+    
+
+}
+.left-div p{
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 2.5rem 2rem;
+    color: rgb(23,40,82);
+
+}
+
+.container .right-div{
+    width: 50%;
+    height: 650px;
+    background: url(images/img1.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    z-index: 1;
+    transition: ease-in  0.8s;
+    margin-right: 5%;
+      
+}
+.container .left-div:hover{
+   transform: scale(1.1);
+
+}
+
+.container .left-div .content a{
+    text-decoration: none;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size:1.2rem;
+    font-weight: 500;
+    margin: 3rem 0;
+    padding: .5rem 1rem;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid rgb(23,40,82);
+    background-color: rgb(23,40,82);
+    margin-left: 2rem;
+
+}
+.container .left-div .content a:hover{
+    color: rgb(23,40,82);
+    background-color:  #ffffff;
+}
+@media screen and (max-width: 720px){
+
+    .Bg-img{
+        height: 30%;
+        padding-top: 10%;
+        margin-bottom: -10%;
+    }
+    .container{
+         width: 100%;
+         flex-wrap: wrap-reverse;
+         justify-content: center;
+    
+    }
+    .container .right-div{
+        
+        width: 96%;
+        margin: 5px 2px 5px 1.5px;
+        padding: 2px;
+      
+
+        
+    }
+    .container .left-div{
+        width: 80%;
+        overflow: hidden;
+        right: 0px;
+        top: -100px;
+        margin: -45% 0 0 0;
+        padding: 3rem 1rem;
+    }
+.content{
+    text-align: left;
+}
+.left-div h2{
+    text-align: left;
+    font-family: "Open Sans", verdana, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
+}
